@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e5c3c9c1fb72a2388a264b601c30bc6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7e5c3c9c1fb72a2388a264b601c30bc6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7e5c3c9c1fb72a2388a264b601c30bc6 = L.map(
+                "map_7e5c3c9c1fb72a2388a264b601c30bc6",
+                {
+                    center: [45.10462636363637, 13.790380303030304],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f371e4c8d73406e8be888b1443696c7e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f371e4c8d73406e8be888b1443696c7e.addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var marker_20633c8a17a5a1c689388cacc93a010d = L.marker(
+                [45.0812, 13.6387],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_6fe88457d1ef5e2f78bb784118ad4489 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20633c8a17a5a1c689388cacc93a010d.setIcon(icon_6fe88457d1ef5e2f78bb784118ad4489);
+        
+    
+        var popup_fb0ff8ced90cd3124470435d819fdafc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59eb12cc8204403dd77f7663f672dea1 = $(`<div id="html_59eb12cc8204403dd77f7663f672dea1" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Rovigno (Rovinj)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Rovinj<br>     <b>Caratteristiche:</b> Centro storico pittoresco e affascinante porto<br>     <b>Vantaggi:</b> Perfetta per passeggiate romantiche ,     </div>`)[0];
+                popup_fb0ff8ced90cd3124470435d819fdafc.setContent(html_59eb12cc8204403dd77f7663f672dea1);
+            
+        
+
+        marker_20633c8a17a5a1c689388cacc93a010d.bindPopup(popup_fb0ff8ced90cd3124470435d819fdafc)
+        ;
+
+        
+    
+    
+            var marker_13bb5d951c59ef8cbf9a2abfb8164999 = L.marker(
+                [44.8666, 13.8493],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_71051a5030e1eab266151d04cf1402e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13bb5d951c59ef8cbf9a2abfb8164999.setIcon(icon_71051a5030e1eab266151d04cf1402e5);
+        
+    
+        var popup_3ba19c8040afdc7affa6f9dafc74a549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ee44db676a2e117b2addc824f040709 = $(`<div id="html_0ee44db676a2e117b2addc824f040709" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Pola (Pula)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Pula<br>     <b>Caratteristiche:</b> Siti archeologici romani<br>     <b>Vantaggi:</b>  anfiteatro ben conservatoRicca di storia e cultura ,Ricca di storia e cultura      </div>`)[0];
+                popup_3ba19c8040afdc7affa6f9dafc74a549.setContent(html_0ee44db676a2e117b2addc824f040709);
+            
+        
+
+        marker_13bb5d951c59ef8cbf9a2abfb8164999.bindPopup(popup_3ba19c8040afdc7affa6f9dafc74a549)
+        ;
+
+        
+    
+    
+            var marker_250f1c19ece640125f0488f405db8ba9 = L.marker(
+                [45.2272, 13.5958],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_889047eb69f7167b9ff590b6c64c5cc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_250f1c19ece640125f0488f405db8ba9.setIcon(icon_889047eb69f7167b9ff590b6c64c5cc6);
+        
+    
+        var popup_20d003c63982e3a5d61601f8896b2e1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4412b9d91cc52bc98436d5b4a56f44e0 = $(`<div id="html_4412b9d91cc52bc98436d5b4a56f44e0" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Parenzo (Poreč)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Poreč<br>     <b>Caratteristiche:</b> Basilica Eufrasiana<br>     <b>Vantaggi:</b>  patrimonio UNESCOPerfetta per amanti dell’arte ,Perfetta per amanti dell’arte      </div>`)[0];
+                popup_20d003c63982e3a5d61601f8896b2e1f.setContent(html_4412b9d91cc52bc98436d5b4a56f44e0);
+            
+        
+
+        marker_250f1c19ece640125f0488f405db8ba9.bindPopup(popup_20d003c63982e3a5d61601f8896b2e1f)
+        ;
+
+        
+    
+    
+            var marker_0e4f733d12846097780543322034ac51 = L.marker(
+                [45.431, 13.5235],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_6c3c4238df7cc04c8b23d47063d5be78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0e4f733d12846097780543322034ac51.setIcon(icon_6c3c4238df7cc04c8b23d47063d5be78);
+        
+    
+        var popup_81bed72b536033fa4e91790454c2d4f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ac1f8491459b5d394a594ffc9dc03c = $(`<div id="html_88ac1f8491459b5d394a594ffc9dc03c" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Umago (Umag)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Umag<br>     <b>Caratteristiche:</b> Località balneare vivace<br>     <b>Vantaggi:</b>  tornei di tennisOttima per sportivi e relax ,Ottima per sportivi e relax      </div>`)[0];
+                popup_81bed72b536033fa4e91790454c2d4f5.setContent(html_88ac1f8491459b5d394a594ffc9dc03c);
+            
+        
+
+        marker_0e4f733d12846097780543322034ac51.bindPopup(popup_81bed72b536033fa4e91790454c2d4f5)
+        ;
+
+        
+    
+    
+            var marker_22f7dca06126ed8c7f392327adf9d2d7 = L.marker(
+                [45.336, 13.828],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_f940a25c940ce404e6aff4df97613005 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_22f7dca06126ed8c7f392327adf9d2d7.setIcon(icon_f940a25c940ce404e6aff4df97613005);
+        
+    
+        var popup_fd604f850d68df9fe0000b97bd296bba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0baee9362d21948975f67933f89caa1b = $(`<div id="html_0baee9362d21948975f67933f89caa1b" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Motovun<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Motovun<br>     <b>Caratteristiche:</b> Villaggio collinare con mura medievali<br>     <b>Vantaggi:</b> Ideale per chi cerca paesaggi panoramici ,     </div>`)[0];
+                popup_fd604f850d68df9fe0000b97bd296bba.setContent(html_0baee9362d21948975f67933f89caa1b);
+            
+        
+
+        marker_22f7dca06126ed8c7f392327adf9d2d7.bindPopup(popup_fd604f850d68df9fe0000b97bd296bba)
+        ;
+
+        
+    
+    
+            var marker_3ffa0c10ee00e1407e3de7d9f19c888a = L.marker(
+                [45.3814, 13.7233],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_ecc2d639efd10a11c953dbe20fae018f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3ffa0c10ee00e1407e3de7d9f19c888a.setIcon(icon_ecc2d639efd10a11c953dbe20fae018f);
+        
+    
+        var popup_b53a86941e5c3981e0e4760fe6be518d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0d7b74ff5ab3e170d0f987a141e0b4f = $(`<div id="html_c0d7b74ff5ab3e170d0f987a141e0b4f" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Grožnjan<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Grožnjan<br>     <b>Caratteristiche:</b> Conosciuto come “villaggio degli artisti”<br>     <b>Vantaggi:</b> Ricco di gallerie e botteghe ,     </div>`)[0];
+                popup_b53a86941e5c3981e0e4760fe6be518d.setContent(html_c0d7b74ff5ab3e170d0f987a141e0b4f);
+            
+        
+
+        marker_3ffa0c10ee00e1407e3de7d9f19c888a.bindPopup(popup_b53a86941e5c3981e0e4760fe6be518d)
+        ;
+
+        
+    
+    
+            var marker_31f4f1dfc97a0b8f3a588f9132e3c2b8 = L.marker(
+                [45.095, 14.1194],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_b5c37b468dac9df2958df4eb2e7d701f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_31f4f1dfc97a0b8f3a588f9132e3c2b8.setIcon(icon_b5c37b468dac9df2958df4eb2e7d701f);
+        
+    
+        var popup_6fa61dfcfd2879c1b78ff302ef919df1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60f3207f8e059a4dfb1f2bb4b81aada4 = $(`<div id="html_60f3207f8e059a4dfb1f2bb4b81aada4" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Labin<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Labin<br>     <b>Caratteristiche:</b> Centro storico medievale<br>     <b>Vantaggi:</b> Splendida vista sulla costa ,     </div>`)[0];
+                popup_6fa61dfcfd2879c1b78ff302ef919df1.setContent(html_60f3207f8e059a4dfb1f2bb4b81aada4);
+            
+        
+
+        marker_31f4f1dfc97a0b8f3a588f9132e3c2b8.bindPopup(popup_6fa61dfcfd2879c1b78ff302ef919df1)
+        ;
+
+        
+    
+    
+            var marker_721849a1b7183654b6bd706cef9fd806 = L.marker(
+                [45.0, 13.7667],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_d6e256548ea5803963db847716b5b947 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_721849a1b7183654b6bd706cef9fd806.setIcon(icon_d6e256548ea5803963db847716b5b947);
+        
+    
+        var popup_e1e313ce1c4f4cc130cf8366741191bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a04a48dca4be56b9166c5e8497d5b9b6 = $(`<div id="html_a04a48dca4be56b9166c5e8497d5b9b6" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Bale (Valle)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Bale<br>     <b>Caratteristiche:</b> Atmosfera tranquilla e autentica<br>     <b>Vantaggi:</b> Perfetto per chi cerca relax ,     </div>`)[0];
+                popup_e1e313ce1c4f4cc130cf8366741191bb.setContent(html_a04a48dca4be56b9166c5e8497d5b9b6);
+            
+        
+
+        marker_721849a1b7183654b6bd706cef9fd806.bindPopup(popup_e1e313ce1c4f4cc130cf8366741191bb)
+        ;
+
+        
+    
+    
+            var marker_04d5b975f55f65254834358abbf6761f = L.marker(
+                [45.24, 13.9372],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_a800bd5d9f0d96c098d4e4cd83f18f5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_04d5b975f55f65254834358abbf6761f.setIcon(icon_a800bd5d9f0d96c098d4e4cd83f18f5e);
+        
+    
+        var popup_7df994223e03349333d317d4923109d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d2a32e006f6f50f7a8f955aac215237 = $(`<div id="html_5d2a32e006f6f50f7a8f955aac215237" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Pisino (Pazin)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Pazin<br>     <b>Caratteristiche:</b> Gola carsica e castello medievale<br>     <b>Vantaggi:</b> Interessante per escursioni e storia ,     </div>`)[0];
+                popup_7df994223e03349333d317d4923109d8.setContent(html_5d2a32e006f6f50f7a8f955aac215237);
+            
+        
+
+        marker_04d5b975f55f65254834358abbf6761f.bindPopup(popup_7df994223e03349333d317d4923109d8)
+        ;
+
+        
+    
+    
+            var marker_37521e0a9135b56b76d0fe123b7dc594 = L.marker(
+                [44.96, 13.85],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_dc8c0e82ca3a16c61f05589197581ac5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_37521e0a9135b56b76d0fe123b7dc594.setIcon(icon_dc8c0e82ca3a16c61f05589197581ac5);
+        
+    
+        var popup_6b5436f2d57b0f232f16dacb112b8957 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c56ca74576b4a3efa78607a3dd3ba43 = $(`<div id="html_5c56ca74576b4a3efa78607a3dd3ba43" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Dignano (Vodnjan)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Vodnjan<br>     <b>Caratteristiche:</b> Collezione di mummie nella chiesa locale<br>     <b>Vantaggi:</b> Perfetto per visitatori curiosi ,     </div>`)[0];
+                popup_6b5436f2d57b0f232f16dacb112b8957.setContent(html_5c56ca74576b4a3efa78607a3dd3ba43);
+            
+        
+
+        marker_37521e0a9135b56b76d0fe123b7dc594.bindPopup(popup_6b5436f2d57b0f232f16dacb112b8957)
+        ;
+
+        
+    
+    
+            var marker_8616ba6777873c6c5849520efbc09d52 = L.marker(
+                [44.9275, 13.8025],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_728cd0e4c3c596a07639211cec2e2677 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8616ba6777873c6c5849520efbc09d52.setIcon(icon_728cd0e4c3c596a07639211cec2e2677);
+        
+    
+        var popup_6c9f43a74b0df51e5d6c21a8c868a808 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12c547e07cc6340e7e16c5e10364e4ba = $(`<div id="html_12c547e07cc6340e7e16c5e10364e4ba" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Fasana (Fažana)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Fažana<br>     <b>Caratteristiche:</b> Villaggio di pescatori<br>     <b>Vantaggi:</b>  punto di partenza per le BrioniOttimo per escursioni in barca ,Ottimo per escursioni in barca      </div>`)[0];
+                popup_6c9f43a74b0df51e5d6c21a8c868a808.setContent(html_12c547e07cc6340e7e16c5e10364e4ba);
+            
+        
+
+        marker_8616ba6777873c6c5849520efbc09d52.bindPopup(popup_6c9f43a74b0df51e5d6c21a8c868a808)
+        ;
+
+        
+    
+    
+            var marker_1705685ddbd897d7b2da94ff675cea79 = L.marker(
+                [44.8, 13.91],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_2f4e94ce3342910fa299d1afffe2744c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1705685ddbd897d7b2da94ff675cea79.setIcon(icon_2f4e94ce3342910fa299d1afffe2744c);
+        
+    
+        var popup_b15d22af399ea5ab882967363f15e412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_343fdb009b8b0e18e39d1df6258d1381 = $(`<div id="html_343fdb009b8b0e18e39d1df6258d1381" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Premantura<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Premantura<br>     <b>Caratteristiche:</b> Natura selvaggia<br>     <b>Vantaggi:</b>  Parco KamenjakIdeale per sportivi e amanti del mare ,Ideale per sportivi e amanti del mare      </div>`)[0];
+                popup_b15d22af399ea5ab882967363f15e412.setContent(html_343fdb009b8b0e18e39d1df6258d1381);
+            
+        
+
+        marker_1705685ddbd897d7b2da94ff675cea79.bindPopup(popup_b15d22af399ea5ab882967363f15e412)
+        ;
+
+        
+    
+    
+            var marker_e38223cbd5b5505b63d1a831feed762e = L.marker(
+                [45.08, 14.16],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_0cc64968f7b446e86dc974865a0238db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e38223cbd5b5505b63d1a831feed762e.setIcon(icon_0cc64968f7b446e86dc974865a0238db);
+        
+    
+        var popup_c864454859c9e0414f44d8847ab317fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77b6d608ac6fc400d88809c6ae2a5011 = $(`<div id="html_77b6d608ac6fc400d88809c6ae2a5011" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Rabac<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Rabac<br>     <b>Caratteristiche:</b> Località balneare con spiagge di ciottoli<br>     <b>Vantaggi:</b> Perfetta per famiglie e sport acquatici ,     </div>`)[0];
+                popup_c864454859c9e0414f44d8847ab317fe.setContent(html_77b6d608ac6fc400d88809c6ae2a5011);
+            
+        
+
+        marker_e38223cbd5b5505b63d1a831feed762e.bindPopup(popup_c864454859c9e0414f44d8847ab317fe)
+        ;
+
+        
+    
+    
+            var marker_102095516b7d45065b409af560aa8d1e = L.marker(
+                [45.5, 13.5],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_039a9bfd5aeb6c086bfc8d228917d22b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_102095516b7d45065b409af560aa8d1e.setIcon(icon_039a9bfd5aeb6c086bfc8d228917d22b);
+        
+    
+        var popup_4dc12ec2bce3b0a143a7e019b68f8e57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f639f05c375e41c678a0308a0d5582c = $(`<div id="html_2f639f05c375e41c678a0308a0d5582c" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Savudrija<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Savudrija<br>     <b>Caratteristiche:</b> Faro storico più antico dell’Adriatico<br>     <b>Vantaggi:</b> Ideale per una vacanza tranquilla ,     </div>`)[0];
+                popup_4dc12ec2bce3b0a143a7e019b68f8e57.setContent(html_2f639f05c375e41c678a0308a0d5582c);
+            
+        
+
+        marker_102095516b7d45065b409af560aa8d1e.bindPopup(popup_4dc12ec2bce3b0a143a7e019b68f8e57)
+        ;
+
+        
+    
+    
+            var marker_8f7cb8d0f4e528c5ed32607f9d82e8ab = L.marker(
+                [45.08, 13.88],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_32667d3d8dc8eb48e3387a9fc1014963 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8f7cb8d0f4e528c5ed32607f9d82e8ab.setIcon(icon_32667d3d8dc8eb48e3387a9fc1014963);
+        
+    
+        var popup_6727b1ea038fb51c8d006ede6b118b7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c79a43d0140d115b7b449f7c7d557d91 = $(`<div id="html_c79a43d0140d115b7b449f7c7d557d91" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Svetvinčenat<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Svetvinčenat<br>     <b>Caratteristiche:</b> Borgo medievale con castello rinascimentale<br>     <b>Vantaggi:</b> Adatta per appassionati di storia ,     </div>`)[0];
+                popup_6727b1ea038fb51c8d006ede6b118b7d.setContent(html_c79a43d0140d115b7b449f7c7d557d91);
+            
+        
+
+        marker_8f7cb8d0f4e528c5ed32607f9d82e8ab.bindPopup(popup_6727b1ea038fb51c8d006ede6b118b7d)
+        ;
+
+        
+    
+    
+            var marker_a4da0ddfd802f2e872fb1cab3150d4d4 = L.marker(
+                [45.38, 13.85],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_bc43fa6fd72b80d0e7f20cd4e88376e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4da0ddfd802f2e872fb1cab3150d4d4.setIcon(icon_bc43fa6fd72b80d0e7f20cd4e88376e5);
+        
+    
+        var popup_a7af33b7bde5c5102a9a6039600e314a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9440dc88810ef07f090f07f8f9c986af = $(`<div id="html_9440dc88810ef07f090f07f8f9c986af" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Oprtalj<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Oprtalj<br>     <b>Caratteristiche:</b> Paesaggi rurali e atmosfera autentica<br>     <b>Vantaggi:</b> Ottimo per escursionisti ,     </div>`)[0];
+                popup_a7af33b7bde5c5102a9a6039600e314a.setContent(html_9440dc88810ef07f090f07f8f9c986af);
+            
+        
+
+        marker_a4da0ddfd802f2e872fb1cab3150d4d4.bindPopup(popup_a7af33b7bde5c5102a9a6039600e314a)
+        ;
+
+        
+    
+    
+            var marker_f30b516d92ed831b9b859aaac23fec7f = L.marker(
+                [45.41, 13.9667],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_5b2a22c8963e7008c97c1ff8b679c04e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f30b516d92ed831b9b859aaac23fec7f.setIcon(icon_5b2a22c8963e7008c97c1ff8b679c04e);
+        
+    
+        var popup_4e1e775a6972f506da571fb939eba9f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_327fda96feb7cfd38345db543245b318 = $(`<div id="html_327fda96feb7cfd38345db543245b318" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Buzet<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Buzet<br>     <b>Caratteristiche:</b> Città famosa per i tartufi<br>     <b>Vantaggi:</b> Meta ideale per gastronomi ,     </div>`)[0];
+                popup_4e1e775a6972f506da571fb939eba9f6.setContent(html_327fda96feb7cfd38345db543245b318);
+            
+        
+
+        marker_f30b516d92ed831b9b859aaac23fec7f.bindPopup(popup_4e1e775a6972f506da571fb939eba9f6)
+        ;
+
+        
+    
+    
+            var marker_47a22b52971be77d92e950a35215cb9e = L.marker(
+                [45.15, 13.605],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_f26c76264fc53f764a9cad5bdffc7020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47a22b52971be77d92e950a35215cb9e.setIcon(icon_f26c76264fc53f764a9cad5bdffc7020);
+        
+    
+        var popup_dc84b95618f591f19b532b577090b09b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2764bfb0620a3a088824b40e43e0116a = $(`<div id="html_2764bfb0620a3a088824b40e43e0116a" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Vrsar (Orsera)<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Vrsar<br>     <b>Caratteristiche:</b> Villaggio di pescatori con marina<br>     <b>Vantaggi:</b> Ideale per vacanze in barca ,     </div>`)[0];
+                popup_dc84b95618f591f19b532b577090b09b.setContent(html_2764bfb0620a3a088824b40e43e0116a);
+            
+        
+
+        marker_47a22b52971be77d92e950a35215cb9e.bindPopup(popup_dc84b95618f591f19b532b577090b09b)
+        ;
+
+        
+    
+    
+            var marker_54b0d2842dc86c01eda8823f21b84c3d = L.marker(
+                [44.82, 13.94],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_3d25d12d0a98cd6786b3fd69faea7ebe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_54b0d2842dc86c01eda8823f21b84c3d.setIcon(icon_3d25d12d0a98cd6786b3fd69faea7ebe);
+        
+    
+        var popup_76bd1b4fa4731fd20f785ba8030bd4e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92a20c2437fa40f9f64392058eb1977d = $(`<div id="html_92a20c2437fa40f9f64392058eb1977d" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Medulin<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Medulin<br>     <b>Caratteristiche:</b> Spiagge sabbiose e acque calme<br>     <b>Vantaggi:</b> Perfetto per famiglie con bambini ,     </div>`)[0];
+                popup_76bd1b4fa4731fd20f785ba8030bd4e7.setContent(html_92a20c2437fa40f9f64392058eb1977d);
+            
+        
+
+        marker_54b0d2842dc86c01eda8823f21b84c3d.bindPopup(popup_76bd1b4fa4731fd20f785ba8030bd4e7)
+        ;
+
+        
+    
+    
+            var marker_8aae1595153d871995fe26a2b4127a2a = L.marker(
+                [45.18, 13.6],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_1f15a15aeb4cf26186c2bb6c0e7aa1e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8aae1595153d871995fe26a2b4127a2a.setIcon(icon_1f15a15aeb4cf26186c2bb6c0e7aa1e5);
+        
+    
+        var popup_dabfda12341e9387139e9fd2abab1fa8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_052c836211106cb5b8172f3a79e864d7 = $(`<div id="html_052c836211106cb5b8172f3a79e864d7" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Funtana<br>     <b>Tipo:</b> Luogo<br>     <b>Indirizzo:</b> Funtana<br>     <b>Caratteristiche:</b> Atmosfera rilassata e spiagge curate<br>     <b>Vantaggi:</b> Ideale per chi cerca tranquillità ,     </div>`)[0];
+                popup_dabfda12341e9387139e9fd2abab1fa8.setContent(html_052c836211106cb5b8172f3a79e864d7);
+            
+        
+
+        marker_8aae1595153d871995fe26a2b4127a2a.bindPopup(popup_dabfda12341e9387139e9fd2abab1fa8)
+        ;
+
+        
+    
+    
+            var marker_7e9fc9bfd96db4b0c589883b53192a51 = L.marker(
+                [44.764, 13.923],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_922365b0902d09f18238ab658f94e796 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e9fc9bfd96db4b0c589883b53192a51.setIcon(icon_922365b0902d09f18238ab658f94e796);
+        
+    
+        var popup_806ead2633c15b8f7717ea26eac34824 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_567826da0b50018ae19fa481fcc8aaf0 = $(`<div id="html_567826da0b50018ae19fa481fcc8aaf0" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Cape Kamenjak<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Premantura<br>     <b>Caratteristiche:</b> Scogliere<br>     <b>Vantaggi:</b>  calette e natura selvaggiaPerfetta per snorkeling e avventura ,Perfetta per snorkeling e avventura      </div>`)[0];
+                popup_806ead2633c15b8f7717ea26eac34824.setContent(html_567826da0b50018ae19fa481fcc8aaf0);
+            
+        
+
+        marker_7e9fc9bfd96db4b0c589883b53192a51.bindPopup(popup_806ead2633c15b8f7717ea26eac34824)
+        ;
+
+        
+    
+    
+            var marker_bd1dabe47aea20c001aa63397e9a0316 = L.marker(
+                [45.073, 13.635],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_60d426bb40fd968ef81316e6765c7bb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd1dabe47aea20c001aa63397e9a0316.setIcon(icon_60d426bb40fd968ef81316e6765c7bb5);
+        
+    
+        var popup_51fccdb49bc52d7c08843e4a6b30569b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15d9af249c9b284c06c16c0fd4f2b856 = $(`<div id="html_15d9af249c9b284c06c16c0fd4f2b856" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Lone Bay<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Rovinj<br>     <b>Caratteristiche:</b> Ghiaia e prati ombreggiati<br>     <b>Vantaggi:</b> Adatta a famiglie ,     </div>`)[0];
+                popup_51fccdb49bc52d7c08843e4a6b30569b.setContent(html_15d9af249c9b284c06c16c0fd4f2b856);
+            
+        
+
+        marker_bd1dabe47aea20c001aa63397e9a0316.bindPopup(popup_51fccdb49bc52d7c08843e4a6b30569b)
+        ;
+
+        
+    
+    
+            var marker_248f81bf6109665dc47573f49d8b66df = L.marker(
+                [44.814, 13.934],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_4af3191f2d07bef4fbed99762350de25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_248f81bf6109665dc47573f49d8b66df.setIcon(icon_4af3191f2d07bef4fbed99762350de25);
+        
+    
+        var popup_6bbfd49bce3b08b29c0d8583a5c875e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e31c5dfbfc84fc698a7497ab1da85fd6 = $(`<div id="html_e31c5dfbfc84fc698a7497ab1da85fd6" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Bijeca<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Medulin<br>     <b>Caratteristiche:</b> Sabbia e acque poco profonde<br>     <b>Vantaggi:</b> Ideale per bambini ,     </div>`)[0];
+                popup_6bbfd49bce3b08b29c0d8583a5c875e7.setContent(html_e31c5dfbfc84fc698a7497ab1da85fd6);
+            
+        
+
+        marker_248f81bf6109665dc47573f49d8b66df.bindPopup(popup_6bbfd49bce3b08b29c0d8583a5c875e7)
+        ;
+
+        
+    
+    
+            var marker_435eb591983749a396e9dd4dc6da37a1 = L.marker(
+                [45.22, 13.594],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_4a6c7acf4e4212286252b80d1e24eb76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_435eb591983749a396e9dd4dc6da37a1.setIcon(icon_4a6c7acf4e4212286252b80d1e24eb76);
+        
+    
+        var popup_0a32f01f1cf4443a023eda81731ec3ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cba456fa804f2604736a43796629939 = $(`<div id="html_0cba456fa804f2604736a43796629939" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Brulo<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Poreč<br>     <b>Caratteristiche:</b> Ghiaia<br>     <b>Vantaggi:</b>  pineta e servizi ben organizzatiOttima per relax e sport acquatici ,Ottima per relax e sport acquatici      </div>`)[0];
+                popup_0a32f01f1cf4443a023eda81731ec3ab.setContent(html_0cba456fa804f2604736a43796629939);
+            
+        
+
+        marker_435eb591983749a396e9dd4dc6da37a1.bindPopup(popup_0a32f01f1cf4443a023eda81731ec3ab)
+        ;
+
+        
+    
+    
+            var marker_5c1cae2a1e1faa59bf1661d80d35c56d = L.marker(
+                [45.103, 13.628],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_da37c3f09c446f4453187aba9caae2e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5c1cae2a1e1faa59bf1661d80d35c56d.setIcon(icon_da37c3f09c446f4453187aba9caae2e2);
+        
+    
+        var popup_2b824936b9fb63c057d0402b641410b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38451292d2678b4e015a810c4648fee8 = $(`<div id="html_38451292d2678b4e015a810c4648fee8" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Amarin<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Rovinj<br>     <b>Caratteristiche:</b> Ciottoli e resort nelle vicinanze<br>     <b>Vantaggi:</b> Perfetta per chi ama il comfort ,     </div>`)[0];
+                popup_2b824936b9fb63c057d0402b641410b6.setContent(html_38451292d2678b4e015a810c4648fee8);
+            
+        
+
+        marker_5c1cae2a1e1faa59bf1661d80d35c56d.bindPopup(popup_2b824936b9fb63c057d0402b641410b6)
+        ;
+
+        
+    
+    
+            var marker_9bd7f035495b9121b547c96690c37108 = L.marker(
+                [45.478, 13.526],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_3ece4f8fc3d7cd45b9945b2eeb749add = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9bd7f035495b9121b547c96690c37108.setIcon(icon_3ece4f8fc3d7cd45b9945b2eeb749add);
+        
+    
+        var popup_a3e3b6bb8e07925ab652bf7cfbf8bcb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edbc153c81d050ebbd287d94e16bda58 = $(`<div id="html_edbc153c81d050ebbd287d94e16bda58" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Kanegra<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Umag<br>     <b>Caratteristiche:</b> Ciottoli e vegetazione rigogliosa<br>     <b>Vantaggi:</b> Ideale per chi cerca tranquillità ,     </div>`)[0];
+                popup_a3e3b6bb8e07925ab652bf7cfbf8bcb6.setContent(html_edbc153c81d050ebbd287d94e16bda58);
+            
+        
+
+        marker_9bd7f035495b9121b547c96690c37108.bindPopup(popup_a3e3b6bb8e07925ab652bf7cfbf8bcb6)
+        ;
+
+        
+    
+    
+            var marker_3ffcdc72e0f388df5350da5cb3bb76aa = L.marker(
+                [45.158, 13.605],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_0e8d6b839f1df13103d1193e24616b44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3ffcdc72e0f388df5350da5cb3bb76aa.setIcon(icon_0e8d6b839f1df13103d1193e24616b44);
+        
+    
+        var popup_8cf672b6f1083b9568672429061104bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f26f341ac2cf2499a11620f493fb563 = $(`<div id="html_8f26f341ac2cf2499a11620f493fb563" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Valkanela<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Vrsar<br>     <b>Caratteristiche:</b> Ciottoli e piattaforme<br>     <b>Vantaggi:</b> Adatta alle famiglie ,     </div>`)[0];
+                popup_8cf672b6f1083b9568672429061104bc.setContent(html_8f26f341ac2cf2499a11620f493fb563);
+            
+        
+
+        marker_3ffcdc72e0f388df5350da5cb3bb76aa.bindPopup(popup_8cf672b6f1083b9568672429061104bc)
+        ;
+
+        
+    
+    
+            var marker_d37e0491605386701c460879da5b596e = L.marker(
+                [44.866, 13.821],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_66c7d7540c0f4615cdc09de54233b972 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d37e0491605386701c460879da5b596e.setIcon(icon_66c7d7540c0f4615cdc09de54233b972);
+        
+    
+        var popup_56f854da787a8dcf6fd431a9b53cc6dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd2b64abef251bb6e9ded1be0a340a03 = $(`<div id="html_bd2b64abef251bb6e9ded1be0a340a03" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Stoja<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Pula<br>     <b>Caratteristiche:</b> Rocce e acque profonde<br>     <b>Vantaggi:</b> Perfetta per immersioni ,     </div>`)[0];
+                popup_56f854da787a8dcf6fd431a9b53cc6dc.setContent(html_bd2b64abef251bb6e9ded1be0a340a03);
+            
+        
+
+        marker_d37e0491605386701c460879da5b596e.bindPopup(popup_56f854da787a8dcf6fd431a9b53cc6dc)
+        ;
+
+        
+    
+    
+            var marker_94a318ca7f233e38adc5075cd5b2cb26 = L.marker(
+                [45.078, 14.162],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_68e8470220a498570bf3e96060d2f3ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_94a318ca7f233e38adc5075cd5b2cb26.setIcon(icon_68e8470220a498570bf3e96060d2f3ef);
+        
+    
+        var popup_196b9fd10cea37e565c84a07c7de281c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_909e7d5e5d415e8ad6f3ac5d668663a2 = $(`<div id="html_909e7d5e5d415e8ad6f3ac5d668663a2" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Girandella<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Rabac<br>     <b>Caratteristiche:</b> Ciottoli e acque cristalline<br>     <b>Vantaggi:</b> Bandiera Blu ideale per famiglie , ideale per famiglie      </div>`)[0];
+                popup_196b9fd10cea37e565c84a07c7de281c.setContent(html_909e7d5e5d415e8ad6f3ac5d668663a2);
+            
+        
+
+        marker_94a318ca7f233e38adc5075cd5b2cb26.bindPopup(popup_196b9fd10cea37e565c84a07c7de281c)
+        ;
+
+        
+    
+    
+            var marker_42e9f87edd4808003716c773d48a8fca = L.marker(
+                [44.927, 13.802],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_5a032c816f0d0f034812510be50bb678 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42e9f87edd4808003716c773d48a8fca.setIcon(icon_5a032c816f0d0f034812510be50bb678);
+        
+    
+        var popup_f1a14aa4ec92478ffe8621085f6a67ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a4b06041e7d15232abd2809c0da7d1f = $(`<div id="html_2a4b06041e7d15232abd2809c0da7d1f" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Punta<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Fažana<br>     <b>Caratteristiche:</b> Sabbia mista a ciottoli<br>     <b>Vantaggi:</b> Punto di partenza per le Brioni ,     </div>`)[0];
+                popup_f1a14aa4ec92478ffe8621085f6a67ed.setContent(html_2a4b06041e7d15232abd2809c0da7d1f);
+            
+        
+
+        marker_42e9f87edd4808003716c773d48a8fca.bindPopup(popup_f1a14aa4ec92478ffe8621085f6a67ed)
+        ;
+
+        
+    
+    
+            var marker_503b6b1ad6618eb2b026ab7baae4a447 = L.marker(
+                [44.837, 13.836],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_cac4b13671d090f0d6b278774b6e9675 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_503b6b1ad6618eb2b026ab7baae4a447.setIcon(icon_cac4b13671d090f0d6b278774b6e9675);
+        
+    
+        var popup_66c01152f57a1e38680e8aa28719adce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26b91b8e58c3b36cc6f0d6ae88e5e00a = $(`<div id="html_26b91b8e58c3b36cc6f0d6ae88e5e00a" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Hawaii<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Pula<br>     <b>Caratteristiche:</b> Ciottoli<br>     <b>Vantaggi:</b>  paesaggio naturaleOttima per paesaggi mozzafiato ,Ottima per paesaggi mozzafiato      </div>`)[0];
+                popup_66c01152f57a1e38680e8aa28719adce.setContent(html_26b91b8e58c3b36cc6f0d6ae88e5e00a);
+            
+        
+
+        marker_503b6b1ad6618eb2b026ab7baae4a447.bindPopup(popup_66c01152f57a1e38680e8aa28719adce)
+        ;
+
+        
+    
+    
+            var marker_a7db72e55b1f38b7b14cf76ee2e294dc = L.marker(
+                [45.179, 13.592],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_3ef9127591d3b28ec397b05fdc367c73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7db72e55b1f38b7b14cf76ee2e294dc.setIcon(icon_3ef9127591d3b28ec397b05fdc367c73);
+        
+    
+        var popup_22ba90e444de2fe48f98207063128174 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acb02698a7ad1b57cbb995561587b14b = $(`<div id="html_acb02698a7ad1b57cbb995561587b14b" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Funtana<br>     <b>Tipo:</b> Spiaggia<br>     <b>Indirizzo:</b> Funtana<br>     <b>Caratteristiche:</b> Ciottoli e piattaforme<br>     <b>Vantaggi:</b> Adatta a chi cerca comodità,     </div>`)[0];
+                popup_22ba90e444de2fe48f98207063128174.setContent(html_acb02698a7ad1b57cbb995561587b14b);
+            
+        
+
+        marker_a7db72e55b1f38b7b14cf76ee2e294dc.bindPopup(popup_22ba90e444de2fe48f98207063128174)
+        ;
+
+        
+    
+    
+            var marker_231ff2813d4f3cd66e6e76179514054f = L.marker(
+                [45.00977, 13.97845],
+                {
+}
+            ).addTo(map_7e5c3c9c1fb72a2388a264b601c30bc6);
+        
+    
+            var icon_9b1df2ad1843024284dfc26f9e3d1fa5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_231ff2813d4f3cd66e6e76179514054f.setIcon(icon_9b1df2ad1843024284dfc26f9e3d1fa5);
+        
+    
+        var popup_6bf0564ecfe1e2471e41ccf0f1ee6c45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_423799b42f789a7b1f7b1d5bb8890237 = $(`<div id="html_423799b42f789a7b1f7b1d5bb8890237" style="width: 100.0%; height: 100.0%;">     <b>Nome:</b> Manjadvorci 74<br>     <b>Tipo:</b> Airbnb<br>     <b>Indirizzo:</b> Barban<br>     <b>Caratteristiche:</b> Appartamento Airbnb<br>     <b>Vantaggi:</b> nan     </div>`)[0];
+                popup_6bf0564ecfe1e2471e41ccf0f1ee6c45.setContent(html_423799b42f789a7b1f7b1d5bb8890237);
+            
+        
+
+        marker_231ff2813d4f3cd66e6e76179514054f.bindPopup(popup_6bf0564ecfe1e2471e41ccf0f1ee6c45)
+        ;
+
+        
+    
+</script>
+</html>
